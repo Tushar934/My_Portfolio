@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="logo-title logo-description">
+  <title id="logo-title">Tushar Goyal — TG monogram</title>
+  <desc id="logo-description">Geometric T and G lettering in cream and sage on a dark green rounded square, with a peach connection dot.</desc>
+  <rect width="80" height="80" rx="21" fill="#172c2b"/>
+  <path d="M15 24h25v7h-9v26h-7V31h-9z" fill="#f7f6f0"/>
+  <path d="M62 31a12 12 0 1 0 0 19v-7h-9" fill="none" stroke="#b7d9c2" stroke-width="7" stroke-linecap="square" stroke-linejoin="round"/>
+  <circle cx="63" cy="17" r="4" fill="#e8ad96"/>
+</svg>

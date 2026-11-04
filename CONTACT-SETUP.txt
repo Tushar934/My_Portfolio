@@ -1,0 +1,12 @@
+PORTFOLIO CONTACT FORM
+
+The message form is configured to POST to https://formspree.io/f/xbggqavv. The personal recipient email is not included in the website; configure and verify it privately in your Formspree dashboard.
+
+PUBLISH AND VERIFY
+1. Upload index.html, styles.css, script.js, and logo.svg to your GitHub Pages repository. This local update does not publish itself.
+2. Check that your Formspree form is active and that the receiving mailbox is verified. Review allowed-domain settings, spam controls, usage limits, privacy, and retention settings in your dashboard.
+3. Submit a non-sensitive test message from the published site. Confirm Formspree's response and actual receipt in your inbox. Check reply-to configuration. Delivery has not been verified until receipt is confirmed.
+
+Submission sends the visitor's name, email, subject, and message to Formspree and navigates to its response page. The form uses native HTML POST and browser-required-field/email validation, so it also works without JavaScript. JavaScript adds whitespace trimming and endpoint validation. No live submission was made during local testing.
+
+To change the service, update the contact-form action attribute in index.html to the new public HTTPS endpoint. Never place a recipient email, secret, or dashboard URL in this attribute. No mailto fallback exposes the recipient address.
